@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Country</title>
+    <style>
+        #country-container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .countrylist{
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section id="country-flag"></section>
+    <h1>Country List</h1>
+    <div id="country-container"></div>
+    <script src="countries.js"></script>
+</body>
+</html>
